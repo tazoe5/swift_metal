@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30851ACE2213CBA800AD4DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30851ACD2213CBA800AD4DCC /* AppDelegate.swift */; };
+		30851AD02213CBA800AD4DCC /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 30851ACF2213CBA800AD4DCC /* art.scnassets */; };
+		30851AD22213CBA800AD4DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30851AD12213CBA800AD4DCC /* ViewController.swift */; };
+		30851AD52213CBA800AD4DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30851AD32213CBA800AD4DCC /* Main.storyboard */; };
+		30851AD72213CBAA00AD4DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30851AD62213CBAA00AD4DCC /* Assets.xcassets */; };
+		30851ADA2213CBAA00AD4DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30851AD82213CBAA00AD4DCC /* LaunchScreen.storyboard */; };
+		30851AE52213CBAA00AD4DCC /* Floor_electricial_wireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30851AE42213CBAA00AD4DCC /* Floor_electricial_wireTests.swift */; };
+		30851AF02213CBAA00AD4DCC /* Floor_electricial_wireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30851AEF2213CBAA00AD4DCC /* Floor_electricial_wireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30851AE12213CBAA00AD4DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30851AC22213CBA800AD4DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30851AC92213CBA800AD4DCC;
+			remoteInfo = Floor_electricial_wire;
+		};
+		30851AEC2213CBAA00AD4DCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30851AC22213CBA800AD4DCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30851AC92213CBA800AD4DCC;
+			remoteInfo = Floor_electricial_wire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30851ACA2213CBA800AD4DCC /* Floor_electricial_wire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Floor_electricial_wire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30851ACD2213CBA800AD4DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30851ACF2213CBA800AD4DCC /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		30851AD12213CBA800AD4DCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30851AD42213CBA800AD4DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30851AD62213CBAA00AD4DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30851AD92213CBAA00AD4DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30851ADB2213CBAA00AD4DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30851AE02213CBAA00AD4DCC /* Floor_electricial_wireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Floor_electricial_wireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30851AE42213CBAA00AD4DCC /* Floor_electricial_wireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor_electricial_wireTests.swift; sourceTree = "<group>"; };
+		30851AE62213CBAA00AD4DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30851AEB2213CBAA00AD4DCC /* Floor_electricial_wireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Floor_electricial_wireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30851AEF2213CBAA00AD4DCC /* Floor_electricial_wireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Floor_electricial_wireUITests.swift; sourceTree = "<group>"; };
+		30851AF12213CBAA00AD4DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30851AC72213CBA800AD4DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851ADD2213CBAA00AD4DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851AE82213CBAA00AD4DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30851AC12213CBA800AD4DCC = {
+			isa = PBXGroup;
+			children = (
+				30851ACC2213CBA800AD4DCC /* Floor_electricial_wire */,
+				30851AE32213CBAA00AD4DCC /* Floor_electricial_wireTests */,
+				30851AEE2213CBAA00AD4DCC /* Floor_electricial_wireUITests */,
+				30851ACB2213CBA800AD4DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30851ACB2213CBA800AD4DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30851ACA2213CBA800AD4DCC /* Floor_electricial_wire.app */,
+				30851AE02213CBAA00AD4DCC /* Floor_electricial_wireTests.xctest */,
+				30851AEB2213CBAA00AD4DCC /* Floor_electricial_wireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30851ACC2213CBA800AD4DCC /* Floor_electricial_wire */ = {
+			isa = PBXGroup;
+			children = (
+				30851ACD2213CBA800AD4DCC /* AppDelegate.swift */,
+				30851ACF2213CBA800AD4DCC /* art.scnassets */,
+				30851AD12213CBA800AD4DCC /* ViewController.swift */,
+				30851AD32213CBA800AD4DCC /* Main.storyboard */,
+				30851AD62213CBAA00AD4DCC /* Assets.xcassets */,
+				30851AD82213CBAA00AD4DCC /* LaunchScreen.storyboard */,
+				30851ADB2213CBAA00AD4DCC /* Info.plist */,
+			);
+			path = Floor_electricial_wire;
+			sourceTree = "<group>";
+		};
+		30851AE32213CBAA00AD4DCC /* Floor_electricial_wireTests */ = {
+			isa = PBXGroup;
+			children = (
+				30851AE42213CBAA00AD4DCC /* Floor_electricial_wireTests.swift */,
+				30851AE62213CBAA00AD4DCC /* Info.plist */,
+			);
+			path = Floor_electricial_wireTests;
+			sourceTree = "<group>";
+		};
+		30851AEE2213CBAA00AD4DCC /* Floor_electricial_wireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30851AEF2213CBAA00AD4DCC /* Floor_electricial_wireUITests.swift */,
+				30851AF12213CBAA00AD4DCC /* Info.plist */,
+			);
+			path = Floor_electricial_wireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30851AC92213CBA800AD4DCC /* Floor_electricial_wire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30851AF42213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wire" */;
+			buildPhases = (
+				30851AC62213CBA800AD4DCC /* Sources */,
+				30851AC72213CBA800AD4DCC /* Frameworks */,
+				30851AC82213CBA800AD4DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Floor_electricial_wire;
+			productName = Floor_electricial_wire;
+			productReference = 30851ACA2213CBA800AD4DCC /* Floor_electricial_wire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30851ADF2213CBAA00AD4DCC /* Floor_electricial_wireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30851AF72213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wireTests" */;
+			buildPhases = (
+				30851ADC2213CBAA00AD4DCC /* Sources */,
+				30851ADD2213CBAA00AD4DCC /* Frameworks */,
+				30851ADE2213CBAA00AD4DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30851AE22213CBAA00AD4DCC /* PBXTargetDependency */,
+			);
+			name = Floor_electricial_wireTests;
+			productName = Floor_electricial_wireTests;
+			productReference = 30851AE02213CBAA00AD4DCC /* Floor_electricial_wireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30851AEA2213CBAA00AD4DCC /* Floor_electricial_wireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30851AFA2213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wireUITests" */;
+			buildPhases = (
+				30851AE72213CBAA00AD4DCC /* Sources */,
+				30851AE82213CBAA00AD4DCC /* Frameworks */,
+				30851AE92213CBAA00AD4DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30851AED2213CBAA00AD4DCC /* PBXTargetDependency */,
+			);
+			name = Floor_electricial_wireUITests;
+			productName = Floor_electricial_wireUITests;
+			productReference = 30851AEB2213CBAA00AD4DCC /* Floor_electricial_wireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30851AC22213CBA800AD4DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kouhei Tazoe";
+				TargetAttributes = {
+					30851AC92213CBA800AD4DCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					30851ADF2213CBAA00AD4DCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 30851AC92213CBA800AD4DCC;
+					};
+					30851AEA2213CBAA00AD4DCC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 30851AC92213CBA800AD4DCC;
+					};
+				};
+			};
+			buildConfigurationList = 30851AC52213CBA800AD4DCC /* Build configuration list for PBXProject "Floor_electricial_wire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30851AC12213CBA800AD4DCC;
+			productRefGroup = 30851ACB2213CBA800AD4DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30851AC92213CBA800AD4DCC /* Floor_electricial_wire */,
+				30851ADF2213CBAA00AD4DCC /* Floor_electricial_wireTests */,
+				30851AEA2213CBAA00AD4DCC /* Floor_electricial_wireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30851AC82213CBA800AD4DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30851AD02213CBA800AD4DCC /* art.scnassets in Resources */,
+				30851ADA2213CBAA00AD4DCC /* LaunchScreen.storyboard in Resources */,
+				30851AD72213CBAA00AD4DCC /* Assets.xcassets in Resources */,
+				30851AD52213CBA800AD4DCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851ADE2213CBAA00AD4DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851AE92213CBAA00AD4DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30851AC62213CBA800AD4DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30851AD22213CBA800AD4DCC /* ViewController.swift in Sources */,
+				30851ACE2213CBA800AD4DCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851ADC2213CBAA00AD4DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30851AE52213CBAA00AD4DCC /* Floor_electricial_wireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30851AE72213CBAA00AD4DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30851AF02213CBAA00AD4DCC /* Floor_electricial_wireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30851AE22213CBAA00AD4DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30851AC92213CBA800AD4DCC /* Floor_electricial_wire */;
+			targetProxy = 30851AE12213CBAA00AD4DCC /* PBXContainerItemProxy */;
+		};
+		30851AED2213CBAA00AD4DCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30851AC92213CBA800AD4DCC /* Floor_electricial_wire */;
+			targetProxy = 30851AEC2213CBAA00AD4DCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30851AD32213CBA800AD4DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30851AD42213CBA800AD4DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30851AD82213CBAA00AD4DCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30851AD92213CBAA00AD4DCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30851AF22213CBAA00AD4DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30851AF32213CBAA00AD4DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30851AF52213CBAA00AD4DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30851AF62213CBAA00AD4DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wire";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30851AF82213CBAA00AD4DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floor_electricial_wire.app/Floor_electricial_wire";
+			};
+			name = Debug;
+		};
+		30851AF92213CBAA00AD4DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wireTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wireTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Floor_electricial_wire.app/Floor_electricial_wire";
+			};
+			name = Release;
+		};
+		30851AFB2213CBAA00AD4DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Floor_electricial_wire;
+			};
+			name = Debug;
+		};
+		30851AFC2213CBAA00AD4DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CU3FWXB68N;
+				INFOPLIST_FILE = Floor_electricial_wireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tze.Floor-electricial-wireUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Floor_electricial_wire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30851AC52213CBA800AD4DCC /* Build configuration list for PBXProject "Floor_electricial_wire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30851AF22213CBAA00AD4DCC /* Debug */,
+				30851AF32213CBAA00AD4DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30851AF42213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30851AF52213CBAA00AD4DCC /* Debug */,
+				30851AF62213CBAA00AD4DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30851AF72213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30851AF82213CBAA00AD4DCC /* Debug */,
+				30851AF92213CBAA00AD4DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30851AFA2213CBAA00AD4DCC /* Build configuration list for PBXNativeTarget "Floor_electricial_wireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30851AFB2213CBAA00AD4DCC /* Debug */,
+				30851AFC2213CBAA00AD4DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30851AC22213CBA800AD4DCC /* Project object */;
+}
